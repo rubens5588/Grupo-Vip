@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Entrar no Telegram</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #000;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
+
+            border-radius: 50%;
+            background: #008cff;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 38px;
+
+            box-shadow:
+                0 0 15px #008cff,
+                0 0 35px #008cff,
+                0 0 70px rgba(0, 140, 255, 0.7);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 12px;
+            text-shadow: 0 0 12px rgba(0, 153, 255, 0.8);
+        }
+
+        p {
+            color: #aaa;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .telegram-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+            min-height: 60px;
+
+            background: #008cff;
+            color: #fff;
+
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 0 10px #008cff,
+                0 0 25px #008cff,
+                0 0 50px rgba(0, 140, 255, 0.5);
+
+            transition: 0.2s ease;
+        }
+
+        .telegram-btn:active {
+            transform: scale(0.96);
+
+            box-shadow:
+                0 0 15px #008cff,
+                0 0 35px #008cff;
+        }
+
+        .telegram-icon {
+            font-size: 25px;
+            margin-right: 10px;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #555;
+        }
+
+        @media (max-width: 360px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .telegram-btn {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="logo">
+            ✈
+        </div>
+
+        <h1>Entre no nosso Telegram</h1>
+
+        <p>
+            Clique no botão abaixo para acessar nosso canal
+            diretamente pelo Telegram.
+        </p>
+
+        <a
+            class="telegram-btn"
+            href="https://t.me/Vazadinhos_do_ttk_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span class="telegram-icon">➤</span>
+            ENTRAR NO TELEGRAM
+        </a>
+
+        <div class="footer">
+            Acesso rápido e direto
+        </div>
+
+    </main>
+
+</body>
+</html>
